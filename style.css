@@ -1,0 +1,880 @@
+					
+					*{
+						padding: 0;
+						margin: 0;   
+						font-family: 'Josefin Sans', sans-serif;
+						box-sizing: border-box;
+					}
+					body{
+						background-color: #000;
+					}
+					.container{
+						width: 100%;
+						background-color: #000;
+						height: 800px;
+					}
+					.nav-logo{
+						color: white;
+					}
+					.nav-logo h2{
+						font-size: 28px;
+						padding-top:20px;
+					}
+					span{
+						color: #f9004d;
+					}
+					.nav-heading h1{
+						margin: 0;
+						font-size: 2.5rem;
+						text-align: center;
+						color: white;
+						padding-top: 10px;
+					}
+
+					a{
+						color: white;
+						font-size: 1.2rem;
+						text-decoration: none;
+					}
+					[class*="col-"]{
+						float: left;
+						padding: 10px;
+					}
+					
+					/*-------for mobile-----*/
+					[class*="col-"]{
+						width: 100%;
+					}
+
+					.nav-bar{
+						padding: 1% 7%;
+						text-align: center;
+						
+						 
+					}
+					.nav-menu{
+						display: flex;
+						flex-direction: column;
+					}
+
+					.nav-menu a{
+						font-size: 1.2rem;
+						background-color: #858585;
+						color: white;
+						border-radius: 10px;
+						margin: 7px 0px;
+						padding: 10px;
+						font-weight: bold;
+						text-transform: capitalize;
+					}
+					.nav-menu a:hover{
+						background-color: #f9004d;
+						transition: .4s; 
+					}
+					.nav-bar::after{
+						content: '';
+						display: table;
+						clear: both;
+					}
+					/*---------content section start---------------*/
+					.content{
+						width: 50%;
+						position: absolute;
+						padding-left: 10%;
+						margin-top: 150px;
+						text-align: left;						
+						transform: translateY(-50%)
+					}
+
+					h1{
+						color: white;
+						font-family: "Comic Sans MS";
+						font-size: 60px;
+						margin: 20px 0px 20px;
+						transition: .4s;
+					}
+
+					h3{
+						color: white;
+						font-size: 25px;
+						text-align: center;
+						margin-bottom: 2px;
+						margin-bottom: 20px ;
+					}
+
+					h5 {
+						color: #f9004d;
+						letter-spacing: 2px;
+						font-size: 22px;
+						margin-bottom: 20px;
+						text-align: center;
+					}
+					h1:hover{
+						transform: scale(1.1);
+					}
+					.newslatter form{
+						width: 400px;
+						max-width: 100%;
+						position: relative;
+					}
+					.newslatter form input:first-child{
+						display: inline-block;
+						width: 100%;
+						padding: 14px 130px 14px 15px;
+						border: 2px solid #f9004d;
+						outline: none;
+						border-radius: 30px;
+					}
+					.newslatter form input:last-child{
+						position: absolute;
+						display: inline-block;
+						outline: none;
+						border: none;
+						padding: 10px 30px;
+						border-radius: 30px;
+						background-color: #f9004d;
+						color: white;
+						box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+						top: 6px;
+						right: 5px;
+						transition: .4s;
+					}
+					.newslatter form input:last-child:hover{
+						transform: scale(0.9);
+					}
+
+					.picture{
+						display: flex;
+						justify-content: right;
+						margin-right: 50px;
+						padding: 25px 50px;
+						border: 1px solid transparent;
+						border-radius: 90%;			
+					}
+
+					img{
+					border-radius: 70%;
+					width: 180px;
+					height: 100%
+					}
+
+					/*---------content section End---------------*/
+
+					
+					/*---about Section start-----*/
+					.about{
+						width: 100%;
+						padding: 1% 7px;
+						text-align: center;
+						background-color: #312f2f;
+					}
+					.about img{
+						height: auto;
+						width: 300px;
+						padding: 0 5px;
+								
+					}
+					.about-text{
+						background-color: transparent;
+					}
+					.main{
+						width: 1130px;
+						max-width: 95%;
+						margin: 0 auto;
+						display: flex;
+						align-items: center;
+						justify-content: space-around;
+					}
+
+					.about-text h2{
+						color:white;
+						font-size: 75px;
+						text-transform: capitalize;
+						margin-bottom: 20px;
+					}
+					.about-text h6{
+						color:white;
+						letter-spacing: 2px;
+						font-size: 22px;
+						text-transform: capitalize;
+						margin-bottom: 25px;
+					}
+					.about-text p{
+						color:#fcfc;
+						letter-spacing: 1px;
+						line-height: 28px;
+						font-size: 18px;
+						margin-bottom: 45px;
+					}
+
+					button{
+						background-color: #f9004d;
+						color: white;
+						text-decoration: none;
+						border: 2px solid transparent;
+						font-weight: bold;
+						padding: 13px 30px;
+						transition: .4s;
+					}
+					button:hover{
+						background-color: transparent;
+						border: 2px solid #f9004d;
+						cursor: pointer;
+					}
+					.about::after{
+						clear: both;
+						display: table;
+						content: '';
+					}
+					/*------------About section end--------------*/
+					
+					/*------------Skill section start--------------*/
+					section.page3{
+						height: 100%;
+						justify-content: center;
+						padding-left: 4%;
+					}
+					
+					
+					.title h2{
+						text-align: center;
+						font-size: 48px;
+						padding-top: 80px;
+						padding-bottom: 30px;
+						color: white;
+					}				
+					.page3 .skills{
+						/*height: 700px;*/
+						width: 650px;
+						margin-left: 1%;
+						margin-bottom: 4%;
+						background: #312F2F;
+						padding: 10px;
+						border-radius: 10px;
+						transition: 0.3s;
+					}
+					.skills:hover{
+						box-shadow: 0 4px 8px 5px rgba(235, 230, 230, 0.911) ;
+					}
+					
+					.card-content h3{
+						text-align: center;
+						padding: 8px;
+					}
+
+
+			/*-------------card1 (skill section) design------------------*/
+					.p-skill{
+						color: #fcfc;
+						margin-bottom: 20px;
+						text-align: center;
+						padding-right: 5%;
+					}
+
+					.page3 .skills{
+						/*height: 700px;*/
+						width: 650px;
+						margin-left: 1%;
+						margin-bottom: 4%;
+						background: #312F2F;
+						padding: 10px;
+						padding-left: 5%;
+						border-radius: 10px;
+						transition: 0.3s;
+					}
+					.skills-container{
+						text-align: left;
+						color: white;
+					}
+
+					.skills-container li::before{
+						content: '';
+						position: absolute;
+						top: calc(100% + 10px);
+						left: 0px;
+						width: 100%;
+						height: 10px;
+						background-color: rgb(249, 0, 77, 0.5);
+						border-radius: 1000px;
+						
+					}
+
+					.skills-container li.html::after{
+					animation-name: html;
+					}
+
+					@keyframes html{
+						to{
+							width: 90%;
+						}
+					}
+					.skills-container li.css::after{
+						animation-name: css;
+						}
+	
+						@keyframes css{
+							to{
+								width: 80%;
+							}
+						}
+
+						.skills-container li.bootstrap::after{
+						animation-name: bootstrap;
+						}
+	
+						@keyframes bootstrap{
+							to{
+								width: 70%;
+							}
+						}
+						.skills-container li.javascript::after{
+							animation-name: javascript;
+							}
+		
+							@keyframes javascript{
+								to{
+									width: 60%;
+								}
+							}
+
+							.skills-container li.github::after{
+								animation-name: github;
+								}
+			
+								@keyframes github{
+									to{
+										width: 60%;
+									}
+								}
+	
+						
+					.skills-container li::after{
+						content: '';
+						position: absolute;
+						top: calc(100% + 10px);
+						left: 0;
+						width:0;
+						height: 10px;
+						background-color: rgb(249, 0, 77, 1);
+						border-radius: 1000px;
+						animation-duration: 2s;
+						animation-delay: 2s;
+						animation-timing-function: linear;
+						animation-fill-mode: forwards;
+						animation-iteration-count: 3;
+					}
+
+					.skills-container li{
+						list-style: none;
+						font-weight: bolder;
+						margin: 30px 20px;
+						padding-top: 10px;
+						position: relative;
+						 
+					}
+
+					/*-----------Others skills section(page3)-----------*/
+					.page3 .others-skill{
+						/*height: 700px;*/
+						width: 650px;
+						margin-left: 1%;
+						margin-bottom: 4%;
+						background: #312F2F;
+						padding: 10px;
+						padding-left: 5%;
+						border-radius: 10px;
+						transition: 0.3s;
+					}
+					.page3 .others-skill:hover{
+						box-shadow: 0 4px 8px 5px rgba(235, 230, 230, 0.911) ;
+					}
+
+					.oth-skill{
+						color: #fcfc;
+						margin-bottom: 20px;
+						text-align: center;
+						padding-right: 5%;
+					}
+
+					.others-container{
+						text-align: left;
+						color: white;
+					}
+
+					.others-container li::before{
+						content: '';
+						position: absolute;
+						top: calc(100% + 10px);
+						left: 0px;
+						width: 100%;
+						height: 10px;
+						background-color: rgb(249, 0, 77, 0.5);
+						border-radius: 1000px;
+						
+					}
+
+					.others-container li.C::after{
+					animation-name: C;
+					}
+
+					@keyframes C{
+						to{
+							width: 90%;
+						}
+					}
+					.others-container li.java::after{
+						animation-name: java;
+						}
+	
+						@keyframes java{
+							to{
+								width: 80%;
+							}
+						}
+
+						.others-container li.photoshop::after{
+						animation-name: photoshop;
+						}
+	
+						@keyframes photoshop{
+							to{
+								width: 70%;
+							}
+						}
+						.others-container li.animation::after{
+							animation-name: animation;
+							}
+		
+							@keyframes animation{
+								to{
+									width: 60%;
+								}
+							}
+							.others-container li.MS:after{
+								animation-name: MS;
+								}
+			
+								@keyframes MS{
+									to{
+										width: 95%;
+									}
+								}
+						
+					.others-container li::after{
+						content: '';
+						position: absolute;
+						top: calc(100% + 10px);
+						left: 0;
+						width:0;
+						height: 10px;
+						background-color: rgb(249, 0, 77, 1);
+						border-radius: 1000px;
+						animation-duration: 2s;
+						animation-delay: 2s;
+						animation-timing-function: linear;
+						animation-fill-mode: forwards;
+						animation-iteration-count: 3;
+					}
+
+					.others-container li{
+						list-style: none;
+						font-weight: bolder;
+						margin: 30px 20px;
+						padding-top: 10px;
+						position: relative;
+						 
+					}
+
+					/*----------- card3 education section(page3)-----------*/
+					.card-content i{
+						color: #fcfc;
+						font-size: 50px;
+						display: block;
+						text-align: center;
+						margin: 25px 0px;
+					}
+					/*---------------University section (card3)-------------------------*/
+					.information{
+						color: white;
+						font-size: 18px;
+					}
+					.edu-head{
+						text-align: left;
+						margin: 10px;
+						font-weight: bold;
+						background-color:black;
+						text-decoration: underline;
+						font-size: 20px;
+						color: #fcfc;
+					}
+
+					.line{
+						margin: 10px 0px;
+					}
+				
+					.page3 .education{
+						/*height: 700px;*/
+						width: 650px;
+						margin-left: 1%;
+						margin-bottom: 4%;
+						background: #312F2F;
+						padding: 10px;
+						padding-left: 5%;
+						border-radius: 10px;
+						transition: 0.3s;
+					}
+					.page3 .education:hover{
+						box-shadow: 0 4px 8px 5px rgba(235, 230, 230, 0.911) ;
+					}
+
+					.page3::after{
+						clear: both;
+						display: table;
+						content: '';
+					} 
+
+
+					/*-------------------skill section end--------------------------*/
+					
+					/*---------Service Section start----------------*/
+					
+					
+					.service{
+						background-color: #312f2f;
+						height: 100%;
+						width: 100%;
+						justify-content: center;
+						}
+									
+											
+					/*----------Service section card1----------------*/
+					.card1{
+						display: flex;
+						justify-content: center;
+					}
+					
+					.service .card1 .card{
+						margin-top: 30px;
+						margin-left: 0px;
+						margin-right: 0px;
+						height: 450px;
+						width: 380px;
+						/*margin-left: 5%;*/
+						margin-bottom: 4%;
+						background: black;
+						padding: 10px;
+						border-radius: 10px;
+						transition: 0.3s;
+					}
+
+					.service .card1 .card:hover{
+						box-shadow: 0 4px 8px 5px rgba(235, 230, 230, 0.911) ;
+						transform: scale(1.1);
+					}
+					
+					
+					.card1 h5{
+						color: white;
+						padding-top: 20px;
+						text-align: center;
+						font-size: 26px;
+						word-spacing: 1px;
+					}
+					
+					.card i{
+						font-size: 50px;
+						display: block;
+						text-align: center;
+						margin: 25px 0px;
+						color:#fcfc;
+					}
+
+					.para1 p{
+						color:#fcfc;
+						padding: 20px 10px;
+						line-height: 30px;
+					}
+
+					.button{
+						background-color: #f9004d;
+						border-radius: 30px;
+						color: white;
+						text-decoration: none;
+						border: 2px solid transparent;
+						font-size: 18px;
+						padding: 10px 20px;
+						transition: .4s;
+					}
+					.button:hover{
+						background-color: transparent;
+						border: 2px solid #f9004d;
+						cursor: pointer;
+					}
+
+					/*----------Service section card2----------------*/
+					.card2{
+						display: flex;
+						justify-content: center;
+					}
+					.service .card2 .card{
+						margin-top: 30px;
+						margin-left: 0px;
+						margin-right: 0px;
+						height: 450px;
+						width: 380px;
+						/*margin-left: 5%;*/
+						margin-bottom: 4%;
+						background: black;
+						padding: 10px;
+						border-radius: 10px;
+						transition: 0.3s;
+					}
+
+					.service .card2 .card:hover{
+						box-shadow: 0 4px 8px 5px rgba(235, 230, 230, 0.911) ;
+						transform: scale(1.1);
+					}
+					
+					
+					.card2 h5{
+						color: white;
+						padding-top: 20px;
+						text-align: center;
+						font-size: 26px;
+						word-spacing: 1px;
+					}
+					
+					.card i{
+						font-size: 50px;
+						display: block;
+						text-align: center;
+						margin: 25px 0px;
+						color:#fcfc;
+					}
+
+					.para p{
+						color:#fcfc;
+						padding: 20px 10px;
+						line-height: 30px;
+					}
+
+					.button{
+						background-color: #f9004d;
+						border-radius: 30px;
+						color: white;
+						text-decoration: none;
+						border: 2px solid transparent;
+						font-size: 18px;
+						padding: 10px 20px;
+						transition: .4s;
+					}
+					.button:hover{
+						background-color: transparent;
+						border: 2px solid #f9004d;
+						cursor: pointer;
+					}
+
+				
+					/*----------Service section card3----------------*/
+					.card3{
+						display: flex;
+						justify-content: center;
+					}
+					.service .card3 .card{
+						margin-top: 30px;
+						margin-left: 0px;
+						margin-right: 0px;
+						height: 450px;
+						width: 380px;
+						/*margin-left: 5%;*/
+						margin-bottom: 4%;
+						background: black;
+						padding: 10px;
+						border-radius: 10px;
+						transition: 0.3s;
+					}
+
+					.service .card3 .card:hover{
+						box-shadow: 0 4px 8px 5px rgba(235, 230, 230, 0.911) ;
+						transform: scale(1.1);
+					}
+					
+					
+					.card3 h5{
+						color: white;
+						padding-top: 20px;
+						text-align: center;
+						font-size: 26px;
+						word-spacing: 1px;
+					}
+					
+					.card i{
+						font-size: 50px;
+						display: block;
+						text-align: center;
+						margin: 25px 0px;
+						color:#fcfc;
+					}
+
+					.para p{
+						color:#fcfc;
+						padding: 20px 10px;
+						line-height: 30px;
+					}
+
+					.button{
+						background-color: #f9004d;
+						border-radius: 30px;
+						color: white;
+						text-decoration: none;
+						border: 2px solid transparent;
+						font-size: 18px;
+						padding: 10px 20px;
+						transition: .4s;
+					}
+					.button:hover{
+						background-color: transparent;
+						border: 2px solid #f9004d;
+						cursor: pointer;
+					}
+
+					.service::after{
+						clear: both;
+						display: table;
+						content: '';
+					} 
+
+					/*-----------service section end-----------*/
+					
+					
+					/*----- Contact me section start----------*/
+					.contact-me{
+					margin-top: 0px;
+					background-color: #312F2F;
+					}
+
+					.contact-head{
+						width:100%;
+						align-items: center;
+					}
+										
+					.c-head{
+						margin-top: 50px;
+						color: white;
+						text-align: center;
+						font-size: 52px;
+						padding: 20px;
+					}
+					.contact-text h6{
+						margin-top: 30px;
+						color: white;
+						text-align: center;
+						font-size: 25px;
+						padding: 20px;
+					}
+					.p-con{
+						text-align: center;
+						font-size: 25px;
+						padding: 20px;
+						color: #fcfc;
+						letter-spacing: 2px;
+					}
+
+					#button-3{
+					margin-left: 42%;
+					}
+					
+					.contact-body{
+						margin-top: 40px;
+						width: 100%;
+						align-items: center;
+					}
+					.p-form{
+						width: 100%;
+						text-align: center;
+						font-size: 22px;
+						padding: 20px;
+						color:white;
+						letter-spacing: 1px;
+					}	
+					.contact-body form{
+						text-align: center;
+						align-items: center;
+						
+					}
+					
+					.contact-body input, textarea{
+						background-color: white;
+						width: 80%;
+						font-size: 1.1rem;
+						margin-top: 5px;
+						margin-left: 30px;
+						margin-right: 50px;
+						border: none;
+						resize: none;
+						border-radius: 5px;
+						padding: 8px;
+						}
+					.contact-body button{
+						margin-top: 5px;
+					}
+
+					.contact-me::after{
+						clear: both;
+						display: table;
+						content: '';
+					} 
+
+					/*----- Contact me section start----------*/
+					
+						footer{
+						position: relative;
+						width:100%;
+						height: 400px;
+						background-color:black;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: center;
+					}
+
+					footer p:nth-child(1){
+						font-size: 30px;
+						color: white;
+						margin-bottom: 20px;
+						font-weight: bold;
+					}
+					footer p:nth-child(2){
+						font-size: 17px;
+						color: white;
+						width: 500px;
+						text-align: center;
+						line-height: 26px;
+					}
+					.social{
+						display: flex;
+					}
+					.social a{
+						width: 45px;
+						height: 45px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						background:#f9004d;
+						border-radius: 50%;
+						margin: 22px 10px;
+						color: white;
+						text-decoration: none;
+						font-size: 20px;
+						}
+
+					.social a:hover{
+						transform: scale(1.3);
+						transition: .4s;
+					}
+					.end{
+						position: absolute;
+						color: #fcfc;
+						bottom: 40px;
+						font-size: 14px;
+					}
